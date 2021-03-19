@@ -1,0 +1,35 @@
+The starting filessystem is shown below.
+bicycle-world-ii
+|—— brands.txt
+|—— freight/
+|   |—— messenger/
+|   |—— porteur/
+|—— mountain/
+|   |—— downhill/
+|   |   |—— heavyweight/
+|   |   |—— lightweight/
+|   |—— hardtail/
+|—— racing/
+    |—— road/
+    |—— track/
+
+
+
+commands//
+pwd
+ls
+cd freight
+ls
+cd porteur
+cd ../..
+ls
+cd mountain/downhill
+touch dirt.txt
+touch mud.txt
+ls
+mkdir safety
+cd ../..
+ls
+mkdir bmx
+touch bmx/tricks.txt
+ls
