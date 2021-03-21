@@ -1,0 +1,53 @@
+The command line is a text interface for the computer’s operating system. To access the command line, we use the terminal.
+A filesystem organizes a computer’s files and directories into a tree structure. It starts with the root directory. Each parent directory can contain more child directories and files.
+
+##Navigating the filesystem
+1.pwd Print Working Directory 
+  -The shell command pwd displays the file path from the root directory to the current working directory.
+
+2.mkdir Make Directory
+  -The shell command mkdir is used to make a new directory in the filesystem according to its argument. If a file path is given, the new directory will be placed at the end. Otherwise, it will create a new directory in the current working directory.
+
+3.ls List
+  -The shell command ls is used to list the contents of a directory. If no arguments are given, it will list the contents of the current working directory.
+
+4.cd Change Directory
+  -The shell command cd is used to move throughout the filesystem of a computer. It accepts a variety of arguments:
+    -Full file paths.
+    -Names of children of the current directory.
+    -.. the parent of the current directory.
+
+5.Filesystem Structure
+  -A computer’s filesystem organizes the data stored by a computer, so that it can be easily retrieved by the user.
+Files are generally represented in a tree-like structure, in which any parent directory can have any number of children. The root directory is then found at the base of the tree.
+
+6.touch Create New File
+-The shell command touch creates a new file in the current working directory with the name provided.
+
+7.The Command Line
+-The command line allows a user to navigate the filesystem and run built-in programs or custom scripts. In Unix, the command line interface is called Bash, and the shell prompt is the $.
+
+8.Helper Commands
+  -Helper commands for the command line include:
+    clear to clear the terminal
+    tab to autocomplete the line
+    ↑ and ↓ to cycle through previous commands
+
+##Viewing and Changing the File System
+9.Options modify the behavior of commands:
+ls -a lists all contents of a directory, including hidden files and directories
+ls -l lists all contents in long format
+ls -t orders files and directories by the time they were last modified
+Multiple options can be used together, like ls -alt
+
+10.To copy, move, and remove files and directories:
+    cp copies files
+    mv moves and renames files
+    rm removes files
+    rm -r removes directories
+    Wildcards are useful for selecting groups of files and directories
+
+
+##Redirecting Input and Output
+11.standard input, abbreviated as stdin, is information inputted into the terminal through the keyboard or input device. standard output, abbreviated as stdout, is the information outputted after a process is run. standard error, abbreviated as stderr, is an error message outputted by a failed process.
+12.

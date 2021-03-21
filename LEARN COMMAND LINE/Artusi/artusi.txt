@@ -1,0 +1,27 @@
+pwd
+ls -a
+ls -l
+ls -alt
+cd drawing/pencils
+ls -a
+cp color.txt graphite.txt
+cd ../charcoal
+ls
+cp compressed.txt vine.txt
+cp vine.txt ../pencils/color.txt
+pwd
+ls -alt
+cd brushes
+ls -alt
+cp f*txt ../paint
+cd ../../sculpting
+ls -alt
+cd clay/polymer
+ls
+mv airdry.txt ../ceramic
+cd ../ceramic
+ls -a
+rm earthenware.txt
+cd ../
+rm -rf dough
+cd ../.. (//changing back to the artusi/ directory)
