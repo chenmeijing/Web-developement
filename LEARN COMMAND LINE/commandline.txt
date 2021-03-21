@@ -49,7 +49,7 @@ Multiple options can be used together, like ls -alt
 
 
 ##Redirecting Input and Output
-11.standard input, abbreviated as stdin, is information inputted into the terminal through the keyboard or input device. standard output, abbreviated as stdout, is the information outputted after a process is run. standard error, abbreviated as stderr, is an error message outputted by a failed process.
+11.standard input, abbreviated as stdin, is information inputted into the terminal through the keyboard or input device. standard output, abbreviated as stdout, is the        information outputted after a process is run. standard error, abbreviated as stderr, is an error message outputted by a failed process.
 
 12.Append Redirect shell command
    The >> shell command is used to redirect the standard output of the command on the left and append (add) it to the end of the file on the right.
