@@ -1,0 +1,33 @@
+pwd
+nano hello.txt
+"Hello, I am nano"
+Saving with Ctrl+O, then Enter and then exit with Ctrl+X. To clear the terminal, use the clear command.
+
+nano ~/.bash_profile
+echo "Hello"
+Saving with Ctrl+O, then Enter and then exit with Ctrl+X. To clear the terminal, use the clear command.
+
+source ~/.bash_profile
+nano ~/.bash_profile
+alias p="pwd"
+alias ll="ls -la"
+Saving with Ctrl+O, then Enter and then exit with Ctrl+X. To clear the terminal, use the clear command.
+source ~/.bash_profile
+p
+ll
+nano ~/.bash_profile
+export USER="Stephanie"
+Saving with Ctrl+O, then Enter and then exit with Ctrl+X. To clear the terminal, use the clear command.
+
+echo $USER
+nano ~/.bash_profile
+export PS1=">> "
+Saving with Ctrl+O, then Enter and then exit with Ctrl+X. To clear the terminal, use the clear command.
+source ~/.bash_profile
+In this case, we can see the prompt is chaning to >>
+p
+ll
+echo $HOME
+echo $PATH
+env
+
