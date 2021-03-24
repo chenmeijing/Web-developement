@@ -1,0 +1,23 @@
+git branch (found edits and master branches)
+
+git merge edits
+
+In README.md, keep the file changes from the edits branch. Delete the file changes from HEAD. (
+ <<<<<<< HEAD ,
+  =======
+ , >>>>>>> edits
+
+)
+
+Don’t forget to delete all of Git’s special markings that indicate a merge conflict. Click Save.
+
+git add README.md
+
+Follow the same order of actions as above for examples.md: keep the edits branch file changes and delete the HEAD changes. Click Save.
+
+git add examples.md 
+
+git commit -m "Resolve merge conflict"
+
+git branch -d edits
+
