@@ -1,0 +1,22 @@
+git show HEAD portrait.txt
+git checkout HEAD portrait.txt
+
+Close and reopen the portrait.txt to see the result.
+
+Add === symbols on the line above the eyes in portrait.txt and click save
+
+git add .
+git commit -m "<message>"
+
+Change the completion dates on every file and click save after each change.
+
+git add .
+git commit -m "<message>"
+
+L. Da Vinci
+Add the artist name to each file and click save.
+
+git add .
+git reset HEAD house.txt
+
+git commit -m "<message>"
