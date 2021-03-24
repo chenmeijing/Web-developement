@@ -1,0 +1,35 @@
+git checkout HEAD road-not-taken.txt
+Close and re-open the file to see the result.
+
+And that has made all the difference.
+add above line to road-not-taken.txt and click save.
+
+git checkout -- oven-bird.txt
+
+Is what to make of a diminished thing.
+add above line to oven-bird.txt and click save.
+
+git diff fire-and-ice.txt
+
+Is also okay
+And would suffice.
+
+add above line to fire-and-ice.txt and click save.
+git diff fire-and-ice.txt
+
+git add .
+git reset HEAD fire-and-ice.txt
+git commit -m "<message>"
+
+Add some texts to each of the three poems and click save.
+
+git add .
+git commit -m "<message>"
+
+git reset commit_SHA(only first seven keys)
+
+git checkout HEAD road-not-taken.txt
+
+git checkout HEAD oven-bird.txt
+
+git checkout HEAD fire-and-ice.txt
