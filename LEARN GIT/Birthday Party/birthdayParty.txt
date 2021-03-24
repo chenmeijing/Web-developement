@@ -1,0 +1,41 @@
+git branch
+
+git branch -D moma
+git branch -D whitney
+
+git branch unordered-list
+
+git checkout unordered-list
+
+<ul>
+    <li>Join Kay in celebrating their 29th birthday with free food and beverages</li>
+    <li>karaoke and a special appearance by Willy Nelson</li>
+    <li>explore the Met museum before or after you stop by!</li>
+    <li>Birthday presents optional</li>
+</ul>
+
+Add this to the file and save.
+
+git add index.html
+
+git commit -m "<message>"
+
+git checkout master
+
+git merge unordered-list
+
+git branch big-heading
+
+git checkout big-heading
+
+<h1 style="font-size: 72px">Kay's Birthday Party</h1>
+
+Add this line to the file and click save.
+
+git add index.html
+
+git commit -m "<message>"
+
+git checkout master
+
+git merge big-heading
