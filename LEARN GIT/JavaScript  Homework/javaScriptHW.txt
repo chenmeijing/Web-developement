@@ -1,0 +1,29 @@
+git clone maryrose-hw mary-hw-comments
+
+cd mary-hw-comments
+
+Use the file navigator to open homework.js in the code editor.
+Be sure to open homework.js in the clone, not in the remote.
+
+git branch mr-comments
+
+git checkout mr-comments
+
+It is the time to start commenting on Mary Rose’s JavaScript homework. Then click save.
+
+git add homework.js
+
+git commit -m "add comments"
+
+git push origin mr-comments
+
+cd ../maryrose-hw
+
+git branch
+(It is now changing to master branch.)
+
+git checkout mr-comments
+
+(Now the changes on the clone is pushed to the remote and changes on the mary-hw-comments are now in the homework.js of maryrose-hw .)
+
+
