@@ -1,0 +1,38 @@
+cd veggie-favorites
+
+Add some changes to chili.txt and/or squash-lasagna.txt in the code editor and click save.
+
+git add chili.txt 
+git add squash-lasagna.txt
+
+git commit -m "<message>"
+
+cd ../veggie-clone
+
+git fetch
+
+git merge origin/master
+
+git branch new-recipe
+
+git checkout new-recipe
+
+Add receipe to the new-recipe.txt and click save.
+
+git add new-recipe.txt
+
+git commit -m "<message>"
+
+git fetch
+
+git push origin new-recipe
+
+cd ../veggie-favorites
+
+git branch
+(It is now changing to master branch.)
+
+git checkout new-recipe
+
+(Now the changes on the clone is pushed to the remote and changes on the veggie-clone are now in the new-recipe.txt of veggie-favorites .) 
+
